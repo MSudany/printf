@@ -18,8 +18,8 @@ int print_percent(va_list __attribute__((unused)));
 
 typedef struct specifier
 {
-   char *specifier;
-   int (*func)(va_list);
+	char *specifier;
+	int (*func)(va_list);
 } specifier_t;
 
 #endif
