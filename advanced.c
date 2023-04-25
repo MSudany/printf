@@ -22,5 +22,5 @@ int dtob(va_list ap)
 	for(j = i - 1; j >= 0; j--)
 		_putchar(ar[j] + '0');
 
-	return (i - 1);
+	return (i);
 }
