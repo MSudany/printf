@@ -42,9 +42,10 @@ int (*get_op(const char c))(va_list)
 		{"s", print_str},
 		{"i", print_nbr},
 		{"d", print_nbr},
-		{"%", print_percent}};
+		{"%", print_percent},
+		{"b", dtob}};
 
-	while (i < 5)
+	while (i < 6)
 	{
 		if (c == specifiers[i].specifier[0])
 			return (specifiers[i].func);

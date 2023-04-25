@@ -15,6 +15,7 @@ int print_str(va_list);
 int print_number(int n);
 int print_nbr(va_list);
 int print_percent(va_list __attribute__((unused)));
+int dtob(va_list ap);
 
 typedef struct specifier
 {
